@@ -1,0 +1,78 @@
+@import './assets/styles/mixins.scss';
+
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+// .navbar{
+//     display: flex;
+//     background-color: black;
+//     color:white;        
+//     flex-wrap: wrap;
+//     .navbar_brand{
+//         width:10%;
+//         align-self:flex-start;
+//         font-size:0.8rem;
+//         font-weight: 300;
+//         flex:0.2 1 10%;
+//         h1{
+//             text-align: center;
+//         }
+//     }
+
+//     .navbar_spacer{
+//         flex:1 1 10%;
+//     }
+
+//     .navbar_links{
+//         flex:1 1 10%;
+//         width:40%;
+//         align-self: flex-end;
+//         font-size:1rem;
+//         font-weight: 200;
+//         padding-bottom: 0.2%;
+//         display:flex;
+//         .navbar_link{
+//             width: 10%;
+//             flex: 1;
+//             p {
+//                 padding: 0px;
+//                 text-align:center;  
+//             }
+//         }
+//     }
+// }
+
+
+
+.container{
+    @include gradient(#e66465,#9198e5);
+    height: 100vh;
+    width: 100%;
+    bottom: 70%;
+    background-position-y:40%;
+    // background: #eb01a5;
+    // background-image: url('./assets/mac.jpg');
+    // background-image: url('./assets/mac.jpg'), linear-gradient(#eb01a5, #d13531);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    // display: grid;
+    // grid-template-columns: repeat(auto-fit, minmax(300px,100px));
+}
+
+.container2 {
+    height: 100vh;
+    background: #214444;
+}
+
+.box1 {
+    width: 100px;
+    height:100px;
+    background-color: red;
+}
