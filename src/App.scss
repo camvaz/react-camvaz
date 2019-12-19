@@ -1,51 +1,9 @@
-@import './assets/styles/mixins.scss';
+@import './assets/styles/mixins';
+@import './assets/styles/variables';
 
-*{
-    font-family: 'Montserrat', sans-serif;
+// @media only screen and (max-width: 767px){
 
-}
-
-
-// .navbar{
-//     display: flex;
-//     background-color: black;
-//     color:white;        
-//     flex-wrap: wrap;
-//     .navbar_brand{
-//         width:10%;
-//         align-self:flex-start;
-//         font-size:0.8rem;
-//         font-weight: 300;
-//         flex:0.2 1 10%;
-//         h1{
-//             text-align: center;
-//         }
-//     }
-
-//     .navbar_spacer{
-//         flex:1 1 10%;
-//     }
-
-//     .navbar_links{
-//         flex:1 1 10%;
-//         width:40%;
-//         align-self: flex-end;
-//         font-size:1rem;
-//         font-weight: 200;
-//         padding-bottom: 0.2%;
-//         display:flex;
-//         .navbar_link{
-//             width: 10%;
-//             flex: 1;
-//             p {
-//                 padding: 0px;
-//                 text-align:center;  
-//             }
-//         }
-//     }
 // }
-
-
 
 .container{
     @include gradient(#e66465,#9198e5);

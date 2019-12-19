@@ -3,11 +3,10 @@ import './intro.scss';
 
 function Intro(){
     return( 
-        <div class="intro">
-            <div class="intro_title">
-                <h1>Titulo de intro</h1>
-            </div>
-            <div class="intro subtitle">
+        <div className="intro">
+            <div className="intro-title">
+                <h1>Victor Campos</h1>
+                <h2>Web Developer</h2>        
             </div>
         </div>
     );
