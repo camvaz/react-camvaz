@@ -53,9 +53,14 @@
           text-align:center;
           color:white;
           flex: 0 1 100%;
+          &:hover {
+            text-decoration:underline;
+          }
         }
         .navbar_button{
+            
             padding: 5px;
+            margin-left:5%;
             text-align: center;
             flex:0 1 70%;
             border-radius: 3px;
@@ -63,7 +68,7 @@
             color:white;
             border:none;
             &:hover{
-                background: linear-gradient(360deg, #3d5afe, #8187ff);
+                background: linear-gradient(to bottom, #0050cb, #007bff);
             }
         }   
     }
