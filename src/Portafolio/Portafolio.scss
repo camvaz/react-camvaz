@@ -1,0 +1,60 @@
+@import '../assets/styles/animations';
+
+@media only screen and (max-width: 767px){
+    .portafolio{
+        grid-template-columns: repeat(auto-fit,96%) !important;
+        .portafolio_proyecto{
+            margin-left: 2vh !important;
+            height: 50vh !important;
+            a{
+                margin-top:10vh !important;
+            }
+        }
+    }
+}
+
+.portafolio{
+    display: grid;
+    width:100%;
+    padding-top: 10vh;
+    grid-template-columns: repeat(auto-fit,25%);
+    .portafolio_proyecto{
+        margin-left:10vh ;
+        background-color:white;
+        border-radius: 30px;
+        height: 40vh;
+        display:grid;
+        grid-template-columns: repeat(auto-fit, 100%);
+        grid-template-rows: 0.2fr 0.1fr 0.1fr 0.2fr;
+        img{
+           width:100%;
+           border-top-left-radius: 30px;
+           border-top-right-radius: 30px;
+        //    height:50%; 
+        } 
+        h1{
+            color:black;
+            padding-left: 7%; 
+        }
+        p{
+            padding-left:7%;
+            width:90%;
+            height: 0px !important;
+            margin:0 !important;
+            color:black;
+        }
+        a{
+            width:40%;
+            margin-top:5vh; 
+            padding: 5px;
+            margin-left:7%;
+            text-align: center;
+            border-radius: 30px;
+            background: #3d5afe;
+            color:white;
+            &:active{
+                background: linear-gradient(to bottom, #0050cb, #007bff);
+            }
+        }   
+    }
+}

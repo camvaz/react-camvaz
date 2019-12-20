@@ -20,12 +20,14 @@ function Navbar(){
         </div>
         <div className="navbar_links">
       <Link to='/intro'>
-        <a href="a.com">Inicio</a>
+        <a href="javascript:void(0)">Inicio</a>
       </Link>
       <Link to="/about">
         <a href="javascript:void(0)">About</a>
       </Link>
-          <a href="javascript:void(0)">Portafolio</a>
+      <Link to="/portafolio">
+      <a href="javascript:void(0)">Portafolio</a>
+      </Link>
           <button className="navbar_button">
             Contacto
             </button>

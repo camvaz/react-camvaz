@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './navbar/navbar';
 import Intro from './intro/intro';
 import About from './About/About';
+import Portafolio from './Portafolio/Portafolio';
 import './App.scss';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 // import mac from './assets/mac.jpg';
@@ -13,6 +14,7 @@ function App() {
           <Navbar />
           <Route path='/about' component={About}/>
           <Route path="/intro" component={Intro}/>
+          <Route path="/portafolio" component={Portafolio}/>
         </div>
         <div className="container2">
           <div className="footer">
