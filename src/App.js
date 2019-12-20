@@ -4,7 +4,7 @@ import Intro from './intro/intro';
 import About from './About/About';
 import Portafolio from './Portafolio/Portafolio';
 import './App.scss';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Route} from 'react-router-dom'
 // import mac from './assets/mac.jpg';
 function App() {
   return (

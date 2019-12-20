@@ -1,6 +1,6 @@
 import React from 'react';
-import {FaAngular,FaReact,FaNodeJs, FaPython, FaPhp, FaJava,  } from 'react-icons/fa';
-import { DiMongodb, DiAws, DiGit, DiFirebase, DiMysql, DiPostgresql, DiMsqlServer, DiCss3 } from "react-icons/di";
+import {FaAngular,FaReact,FaNodeJs, FaPython, FaPhp, FaJava } from 'react-icons/fa';
+import { DiMongodb, DiAws, DiGit, DiFirebase, DiMysql, DiPostgresql, DiMsqlServer } from "react-icons/di";
 import './About.scss';
 let size = window.innerWidth >= 768 ? 96 :48 ;
 
