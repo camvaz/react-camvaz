@@ -1,0 +1,28 @@
+.about{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1058px);
+    background-color: linear-gradient(180deg, transparent,black);
+    .about_title{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, 1058px);
+        
+    }
+    .about_skills{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, 1058px);
+        
+        h1{
+            padding-top:10vh;
+            width:100%;
+            color:white;
+                text-align:center;
+                font-weight:bold;
+        }
+        h3{
+            width:100%;
+            color:white;
+            text-align:center;
+            font-weight:bold;
+        }
+    }
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './navbar/navbar';
-import Intro from './intro/intro';
+// import Intro from './intro/intro';
+import About from './About/About';
 import './App.scss';
 // import mac from './assets/mac.jpg';
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <div className="rootdiv">
       <div className="container">
         <Navbar />
-        <Intro />
+        <About />
       </div>
       <div className="container2">
         <div className="footer">
