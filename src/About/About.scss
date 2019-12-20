@@ -7,6 +7,11 @@
         padding-left: 3vh !important;
         .about_description{
             padding-top:10vh;
+            ul{
+                li{
+                    font-weight: normal;
+                }
+            }
         }
         .about_skills{
             width:95%;
