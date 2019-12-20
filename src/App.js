@@ -3,8 +3,8 @@ import Navbar from './navbar/navbar';
 import Intro from './intro/intro';
 import About from './About/About';
 import Portafolio from './Portafolio/Portafolio';
-import './App.scss';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
+import './App.scss';
 // import mac from './assets/mac.jpg';
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
       <div className="rootdiv">
         <div className="container">
           <Navbar />
+          <Route path="/" exact component={Intro}/>
           <Route path='/about' component={About}/>
-          <Route path="/intro" component={Intro}/>
           <Route path="/portafolio" component={Portafolio}/>
         </div>
         <div className="container2">

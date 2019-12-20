@@ -1,12 +1,12 @@
 @import '../assets/styles/animations';
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 1000px){
     .about{
         grid-template-columns: repeat(auto-fit, 100%) !important;
         padding:0vh !important;
         padding-left: 3vh !important;
         .about_description{
-            padding-top:10vh;
+            padding-top:0vh !important;
             ul{
                 li{
                     font-weight: normal;
@@ -14,6 +14,8 @@
             }
         }
         .about_skills{
+
+            padding-top:0vh !important;
             width:95%;
             h1{
                 font-size: 1.5rem;
@@ -38,8 +40,9 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, 50%);
     background-color: linear-gradient(180deg, transparent,black);
-    padding-top:10vh;
     .about_description{
+
+    padding-top:10vh;
         width:95%;
         display:grid;
         grid-template-columns: repeat(auto-fit, 100%);
@@ -73,6 +76,8 @@
         
     }
     .about_skills{
+
+    padding-top:10vh;
         display:grid;
         grid-template-columns: repeat(auto-fit, 100%);
         

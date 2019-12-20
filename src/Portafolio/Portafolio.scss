@@ -1,5 +1,27 @@
 @import '../assets/styles/animations';
 
+
+@media only screen and (max-width: 1000px){
+    .portafolio{
+        grid-template-columns: repeat(auto-fit,50%) !important;
+        .portafolio_proyecto{
+            margin-left: 10vh !important;
+            height: 44vh !important;
+            .buttons{
+                a{
+                    margin-top:10vh !important;
+                    margin-bottom:0vh !important;
+                }
+                .icon{
+
+                    margin-top:10vh !important;
+                    margin-bottom:0vh !important;
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 767px){
     .portafolio{
         grid-template-columns: repeat(auto-fit,96%) !important;
@@ -19,10 +41,11 @@
     padding-top: 10vh;
     grid-template-columns: repeat(auto-fit,25%);
     .portafolio_proyecto{
+        
         margin-left:10vh ;
         background-color:white;
         border-radius: 30px;
-        height: 40vh;
+        height: 60vh;
         display:grid;
         grid-template-columns: repeat(auto-fit, 100%);
         grid-template-rows: 0.2fr 0.1fr 0.1fr 0.2fr;
@@ -43,19 +66,42 @@
             margin:0 !important;
             color:black;
         }
-        a{
-            width:40%;
-            margin-top:5vh;
-            text-decoration: none; 
-            padding: 5px;
-            margin-left:7%;
-            text-align: center;
-            border-radius: 30px;
-            background: #3d5afe;
-            color:white;
-            &:active{
-                background: linear-gradient(to bottom, #0050cb, #007bff);
+        .buttons{
+            width:100%;
+            display:flex;
+            a{
+                flex:1 1 100%;
+                margin-top:20vh;
+                text-decoration: none; 
+                padding: 5px;
+                margin-left:7%;
+                text-align: center;
+                border-radius: 30px;
+                background: #3d5afe;
+                color:white;
+                &:active{
+                    background: linear-gradient(to bottom, #0050cb, #007bff);
+                }
+            }   
+            .icon{
+
+                margin-top:20.5vh;
+                width:100%;
+                a{
+                text-decoration: none; 
+                padding: 6px;
+                padding-left:  8px;
+                padding-right: 8px;
+                margin-left:7%;
+                text-align: center;
+                border-radius: 30px;
+                background:black;
+                color:white;
+                &:active{
+                    background: linear-gradient(to bottom, black, #484848);
+                }
+                }
             }
-        }   
+        }
     }
 }

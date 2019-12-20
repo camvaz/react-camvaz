@@ -20,14 +20,14 @@ function Navbar(){
         <div className="navbar_spacer">
         </div>
         <div className="navbar_links">
-      <Link to='/intro'>
-        <a href="javascript:void(0)">Inicio</a>
+      <Link to='/'>
+        Inicio
       </Link>
       <Link to="/about">
-        <a href="javascript:void(0)">About</a>
+        About
       </Link>
       <Link to="/portafolio">
-      <a href="javascript:void(0)">Portafolio</a>
+      Portafolio
       </Link>
           <button className="navbar_button">
             Contacto

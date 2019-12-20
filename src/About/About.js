@@ -2,7 +2,7 @@ import React from 'react';
 import {FaAngular,FaReact,FaNodeJs, FaPython, FaPhp, FaJava } from 'react-icons/fa';
 import { DiMongodb, DiAws, DiGit, DiFirebase, DiMysql, DiPostgresql, DiMsqlServer } from "react-icons/di";
 import './About.scss';
-let size = window.innerWidth >= 768 ? 96 :48 ;
+let size = window.innerWidth >= 1000 ? 96 :48 ;
 
   function About(){
     return(
