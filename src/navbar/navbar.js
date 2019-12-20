@@ -1,5 +1,6 @@
 import React from 'react';
 import './navbar.scss';
+import {Link} from 'react-router-dom';
 
 // function test(){
 //   return 'Testing';
@@ -18,9 +19,13 @@ function Navbar(){
         <div className="navbar_spacer">
         </div>
         <div className="navbar_links">
-          <a href="a.com">Inicio</a>
-          <a href="a.com">About</a>
-          <a href="a.com">Portafolio</a>
+      <Link to='/intro'>
+        <a href="a.com">Inicio</a>
+      </Link>
+      <Link to="/about">
+        <a href="javascript:void(0)">About</a>
+      </Link>
+          <a href="javascript:void(0)">Portafolio</a>
           <button className="navbar_button">
             Contacto
             </button>

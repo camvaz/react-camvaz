@@ -1,6 +1,9 @@
 @import './assets/styles/mixins';
-
-
+@media only screen and (max-width: 767px){
+    .container{
+        height: 200vh !important;
+    }
+}
 .container{
     @include gradient(#e66465,#9198e5);
     // background: rgba(0, 0, 0, 0.5); /* Green background with 30% opacity */
