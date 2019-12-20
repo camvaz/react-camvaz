@@ -7,26 +7,14 @@
     width: 100%;
     bottom: 70%;
     background-position-y:40%;
-    // background: #eb01a5;
-    // background-image: url('./assets/mac.jpg');
-    // background-image: url('./assets/mac.jpg'), linear-gradient(#eb01a5, #d13531);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    
-    // display: grid;
-    // grid-template-columns: repeat(auto-fit, minmax(300px,100px));
 }
 
 .container2 {
     height: 100vh;
     background: #214444;
-}
-
-.box1 {
-    width: 100px;
-    height:100px;
-    background-color: red;
 }

@@ -1,6 +1,11 @@
 
 @media only screen and (max-width: 767px){
     .navbar{
+        .navbar_brand{
+            h1{
+                padding-left:4% !important;
+            }
+        }
         .navbar_links{
             width:60% !important;
             a{
@@ -25,7 +30,7 @@
         font-size:0.8rem;
         font-weight: 300;
         h1{
-            padding-left: 10px;
+            padding-left: 10%;
             text-align: start;
             width:100%
         }
