@@ -1,9 +1,9 @@
-
+@import './variables';
 @mixin gradient($from, $to) {
     /* fallback/image non-cover color */
     background-color: $from;
   
-    background-image: linear-gradient(to bottom, transparent, black),url('../img/mac.jpg');
+    background-image: linear-gradient(to bottom, transparent, black),url($intro_img);
     /* Firefox 3.6+ */
     // background-image: -moz-linear-gradient($from, $to), url('./assets/mac.jpg');
   

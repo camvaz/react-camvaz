@@ -1,4 +1,9 @@
+@media only screen and (max-width: 767px){
+    $intro_img:'../img/mac-alt.jpg';
+}
 
 *{
     font-family: 'Montserrat', sans-serif;
 }
+
+$intro_img: '../img/mac.jpg';

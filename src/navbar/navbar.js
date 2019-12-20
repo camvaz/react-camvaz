@@ -10,9 +10,9 @@ function Navbar(){
         <div className="navbar_spacer">
         </div>
         <div className="navbar_links">
-            <a href="a.com">Hola</a>
-            <a href="a.com">Hola</a>
-            <a href="a.com">Hola</a>
+            <a href="a.com">Inicio</a>
+            <a href="a.com">About</a>
+            <a href="a.com">Portafolio</a>
             <button className="navbar_button">
             Contacto    
             </button>

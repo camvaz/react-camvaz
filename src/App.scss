@@ -1,9 +1,5 @@
 @import './assets/styles/mixins';
-@import './assets/styles/variables';
 
-// @media only screen and (max-width: 767px){
-
-// }
 
 .container{
     @include gradient(#e66465,#9198e5);
