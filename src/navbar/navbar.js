@@ -11,7 +11,7 @@ import './navbar.scss';
 
 function Navbar(){
     return( 
-      <div className="navbar">
+      <div className="navbar navbar_animation">
         <div className="navbar_brand">
           <h1>Portafolio</h1>
         </div>

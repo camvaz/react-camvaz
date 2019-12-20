@@ -13,7 +13,7 @@ function App() {
       </div>
       <div className="container2">
         <div className="footer">
-          <div class="footer_content">
+          <div className="footer_content">
             <p>Victor Campos | 2019.</p>
           </div>
         </div>

@@ -1,0 +1,9 @@
+
+.navbar_animation{
+    transition: transform 300ms ease-in-out;
+
+    &:hover{
+        transform: translate(200px,0px);
+    }
+}
+

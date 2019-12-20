@@ -23,14 +23,11 @@
 
 .footer {
     position: absolute;
-    display:flex;
-    align-content: space-around;
-   .footer_content{
-       p{
-           color:white;
-           padding:0px !important;
-           text-align:justify;
-           margin:0px !important;
-       }
-   } 
+    display:flexbox;
+
+    p {
+        width:100%;
+        color:white;
+        padding-left:5vh;
+    }
 }
