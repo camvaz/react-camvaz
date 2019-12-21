@@ -10,7 +10,7 @@ function Contacto(){
             <div className="contacto_form_inputs">
             <input type={'text'} className="input_inline" placeholder="Nombre"></input>
             <input type={'text'} className="input_inline" placeholder="Email"></input>
-            <textarea type={'text'} className="input_block" placeholder="Email"></textarea>
+            <textarea type={'text'} className="input_block" placeholder="Mensaje..."></textarea>
             <button type='button'>Enviar</button>
             </div>
           </div>

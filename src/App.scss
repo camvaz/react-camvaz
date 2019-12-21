@@ -3,6 +3,9 @@
     .container{
         height: 200vh !important;
     }
+    .container2{
+        height: 50vh !important;
+    }
 }
 .container{
     @include gradient(#e66465,#9198e5);

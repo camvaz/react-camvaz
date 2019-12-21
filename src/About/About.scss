@@ -6,7 +6,8 @@
         padding:0vh !important;
         padding-left: 3vh !important;
         .about_description{
-            padding-top:0vh !important;
+           padding-top:30vh !important;
+
             ul{
                 li{
                     font-weight: normal;
@@ -42,7 +43,7 @@
     background-color: linear-gradient(180deg, transparent,black);
     .about_description{
 
-    padding-top:10vh;
+        padding-top:10vh;
         width:95%;
         display:grid;
         grid-template-columns: repeat(auto-fit, 100%);
