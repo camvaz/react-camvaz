@@ -29,9 +29,11 @@ function Navbar(){
       <Link to="/portafolio">
       Portafolio
       </Link>
+      <Link to="/contacto">
           <button className="navbar_button">
             Contacto
             </button>
+      </Link>
             <div className="icon">
             <a href="https://github.com/camvaz">
             <FaGithub size={20}/>
