@@ -66,16 +66,6 @@ import './App.scss';
 //   return xmlHttp;
 // }
 
-let req = async () => {
-  const res = await fetch('https://us-central1-camvazweb.cloudfunctions.net/widgets/lang/es/navbar', {
-    mode:'no-cors',
-    method: 'GET',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-  }) 
-  console.log(res);
-}
-
-req();
 // const response = fetch('https://us-central1-camvazweb.cloudfunctions.net/widgets/lang', {
 //   mode:'no-cors',
 //   method: 'POST',

@@ -1,5 +1,28 @@
 import React from 'react';
+import axios from 'axios';
 import './contacto.scss';
+
+// let req = async () => {
+//   const res = await fetch('https://us-central1-camvazweb.cloudfunctions.net/widgets/lang/es/navbar', {
+//     mode:'no-cors',
+//     method: 'GET',
+//     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+//   }) 
+//   console.log(res);
+// }
+
+// req();
+axios({
+  method:'get',
+  url:'https://us-central1-camvazweb.cloudfunctions.net/widgets/lang/es/navbar',
+  responseType: 'json',
+  headers: {'Access-Control-Allow-Origin': '*'},
+
+}).then(res => {
+  console.log(res);
+}).catch(err=>{
+  console.log(err)
+})
 
 function Contacto(){
     return( 
