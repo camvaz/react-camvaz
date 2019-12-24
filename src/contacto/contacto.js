@@ -6,7 +6,7 @@ function Contacto(){
         <div className="contacto fadeIn">
           <div className="contacto_form">
             <h1>Sigamos en contacto.</h1>
-            <h4>Ingresa los siguientes datos para contactarte</h4>
+            <h4>Ingresa los siguientes datos para contactarte.</h4>
             <div className="contacto_form_inputs">
             <input type={'text'} className="input_inline" placeholder="Nombre"></input>
             <input type={'text'} className="input_inline" placeholder="Email"></input>
