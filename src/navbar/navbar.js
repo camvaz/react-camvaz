@@ -11,13 +11,12 @@ import {Link} from 'react-router-dom';
 //   return test;
 // }
 
+
 function Navbar(){
     return( 
       <div className="navbar">
         <div className="navbar_brand">
           <h1>Portafolio</h1>
-        </div>
-        <div className="navbar_spacer">
         </div>
         <div className="navbar_links">
       <Link to='/'>

@@ -2,22 +2,31 @@
 
 
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 1000px){
     .navbar{
+    grid-template-columns: repeat(auto-fit, 100%) !important;
         .navbar_brand{
             h1{
-                padding-left:3vh !important;
+            margin-left: 0vh !important;
+                padding-left:2.5vh !important;
             }
         }
         .navbar_links{
-            width:60% !important;
+            width:100% !important;
             a{
+                margin-top: 0vh !important;
                 flex: 1 1 20% !important;
                 font-size:0.8rem;
             }
             .navbar_button{
+                margin-left: 5% !important;
+                // margin-right: 5% !important;
                 font-size:0.8rem;
                 flex: 1 1 20% !important;
+            }
+            .icon{
+                margin-left: 2% ;
+                margin-right:2% ;
             }
         }
     }
@@ -27,45 +36,43 @@
     display: grid;
     background-color: black;
     color:white;        
-    grid-template-columns: repeat(auto-fit, 600px);
+    grid-template-columns: repeat(auto-fit, 50%);
     .navbar_brand{
     
         font-size:0.8rem;
         font-weight: 300;
         h1{
-            padding-left: 5vh;
+            margin-left: 5vh;
             text-align: start;
-            width:100%
+            width: auto;
         }
     }
 
-    .navbar_spacer{
-        width:100%;
-    }
 
     .navbar_links{
-        width: 100%;
+        justify-self: end;
+        width:60%;
         display:flex;
         align-items: flex-end;
-        align-content: flex-end;
         padding-bottom:3%;
         font-size:1rem;
         font-weight: 200;
         a {
+          margin-top: 2vh;
+        //   margin-left: 20%;
           text-decoration: none;
           text-align:center;
           color:white;
-          flex: 0 1 100%;
+          flex: 1 1 auto;
           &:hover {
             text-decoration:underline;
           }
         }
         .navbar_button{
-            
+        // margin-top: 1vh;
             padding: 5px;
-            margin-left:5%;
             text-align: center;
-            flex:0 1 70%;
+            flex: 0 1 20%;
             border-radius: 3px;
             background: #3d5afe;
             color:white;
@@ -75,11 +82,18 @@
             }
         }   
         .icon{
+
+                margin-right:5% ;
             text-align:center;
-            padding-left:5%;
-            padding-right:2%;
+            padding:0px !important;
+            // margin-right: 5%;
+            // padding: 2%;
+            // padding-left:5%;
             color:white;
             // margin-top:2%;
+            a{
+                padding:0 !important;
+            }
         }
     }
 }
