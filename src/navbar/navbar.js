@@ -34,14 +34,14 @@ function Navbar(){
             </button>
       </Link>
             <div className="icon">
-            <a target="_blank" rel="noopener" href="https://github.com/camvaz">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/camvaz">
             <FaGithub size={20}/>
             </a>
 
             </div>
 
             <div className="icon">
-            <a target="_blank" rel="noopener" href="https://twitter.com/camvazz">
+            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/camvazz">
             <FaTwitter size={20}/>
             </a>
             </div>

@@ -4,7 +4,7 @@ import Intro from './intro/intro';
 import About from './About/About';
 import Portafolio from './Portafolio/Portafolio';
 import Contacto from './contacto/contacto';
-import axios from 'axios';
+// import axios from 'axios';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import './App.scss';
 // import * as $ from 'jquery';
