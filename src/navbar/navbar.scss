@@ -6,9 +6,9 @@
     .navbar{
     grid-template-columns: repeat(auto-fit, 100%) !important;
         .navbar_brand{
+            justify-self: center !important;
             h1{
             margin-left: 0vh !important;
-                padding-left:2.5vh !important;
             }
         }
         .navbar_links{
@@ -38,7 +38,6 @@
     color:white;        
     grid-template-columns: repeat(auto-fit, 50%);
     .navbar_brand{
-    
         font-size:0.8rem;
         font-weight: 300;
         h1{

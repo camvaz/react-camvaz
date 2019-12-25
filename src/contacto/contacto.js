@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import * as $ from 'jquery';
 import './contacto.scss';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import '../../node_modules/react-toastify/dist/ReactToastify.css';
 
 toast.configure({
