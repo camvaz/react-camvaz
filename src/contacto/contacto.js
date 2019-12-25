@@ -2,7 +2,14 @@ import React from 'react';
 import axios from 'axios';
 import * as $ from 'jquery';
 import './contacto.scss';
+import { ToastContainer, toast } from 'react-toastify';
+import '../../node_modules/react-toastify/dist/ReactToastify.css';
 
+toast.configure({
+  autoClose: 2000,
+  draggable: false,
+  //etc you get the idea
+});
 // let req = async () => {
 //   const res = await fetch('https://us-central1-camvazweb.cloudfunctions.net/widgets/lang/es/navbar', {
 //     mode:'no-cors',
@@ -36,7 +43,6 @@ class Contacto extends React.Component{
       isLoading: false
     }
     
-
     this.handleNameChange = this.handleNameChange.bind(this);
     this.handleEmailChange = this.handleEmailChange.bind(this);
     this.handleDescriptionChange = this.handleDescriptionChange.bind(this);
@@ -66,9 +72,10 @@ class Contacto extends React.Component{
         headers: {'Access-Control-Allow-Origin': '*'},
         responseType: 'json'
       }).then(res =>{
-    $('.inputbtn').attr('disabled',false);
+        $('.inputbtn').attr('disabled',false);
         console.log(res)
         this.setState({isLoading:false});
+        toast.success('👍\t\tInformacion enviada con exito.')
       })
   }
 

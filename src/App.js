@@ -7,6 +7,7 @@ import Contacto from './contacto/contacto';
 // import axios from 'axios';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import './App.scss';
+
 // import * as $ from 'jquery';
 // import mac from './assets/mac.jpg';
 // addEvent(window,'load', inicializarEventos, true);
