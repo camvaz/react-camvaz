@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.563a59ca.chunk.css",
-    "main.js": "/static/js/main.c74dac33.chunk.js",
+    "main.css": "/static/css/main.b24fec0d.chunk.css",
+    "main.js": "/static/js/main.9f953daa.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.a228edbf.js",
     "static/css/2.2071007b.chunk.css": "/static/css/2.2071007b.chunk.css",
-    "static/js/2.2b0b3c46.chunk.js": "/static/js/2.2b0b3c46.chunk.js",
+    "static/js/2.705ec02f.chunk.js": "/static/js/2.705ec02f.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.16a698b88c8375780b7d04f08c518531.js": "/precache-manifest.16a698b88c8375780b7d04f08c518531.js",
+    "precache-manifest.c04f745b79638de8a5045bc0ca195898.js": "/precache-manifest.c04f745b79638de8a5045bc0ca195898.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.2b0b3c46.chunk.js.LICENSE": "/static/js/2.2b0b3c46.chunk.js.LICENSE",
+    "static/js/2.705ec02f.chunk.js.LICENSE": "/static/js/2.705ec02f.chunk.js.LICENSE",
     "static/media/contacto.jpg": "/static/media/contacto.f5725622.jpg",
     "static/media/App.scss": "/static/media/mac.33f5ce9e.jpg",
     "static/media/parking.jpeg": "/static/media/parking.4f63dc19.jpeg"
@@ -16,8 +16,8 @@
   "entrypoints": [
     "static/js/runtime-main.a228edbf.js",
     "static/css/2.2071007b.chunk.css",
-    "static/js/2.2b0b3c46.chunk.js",
-    "static/css/main.563a59ca.chunk.css",
-    "static/js/main.c74dac33.chunk.js"
+    "static/js/2.705ec02f.chunk.js",
+    "static/css/main.b24fec0d.chunk.css",
+    "static/js/main.9f953daa.chunk.js"
   ]
 }
