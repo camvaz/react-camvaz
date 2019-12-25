@@ -58,6 +58,7 @@
                 display:flex;
                 flex-wrap:wrap;
                 .input_inline{
+                    border-width: thin;
                    margin-bottom:5vh; 
                    flex:1 1 35%; 
                    font-size:1.2rem;
@@ -79,6 +80,7 @@
                    background-color: black;
                    color:white;
                    padding:4px;
+                   border-width: thin;
                 }
                 .loadingsvg{
                     height: 2vh;
