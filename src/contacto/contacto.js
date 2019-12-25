@@ -20,17 +20,6 @@ toast.configure({
 // }
 
 // req();
-axios({
-  method:'get',
-  url:'/lang/es/navbar',
-  responseType: 'json',
-  headers: {'Access-Control-Allow-Origin': '*'},
-
-}).then(res => {
-  console.log(res);
-}).catch(err=>{
-  console.log(err)
-})
 
 
 class Contacto extends React.Component{
