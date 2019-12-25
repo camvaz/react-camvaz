@@ -1,5 +1,5 @@
+@media only screen and (max-width: 768px){
 @import '../assets/styles/animations';
-@media only screen and (max-width: 767px){
     .contacto{
             grid-template-columns: repeat(auto-fit,100%) !important;
             .contacto_form{
@@ -11,9 +11,10 @@
                     margin-right:2vh;
                 }
                 .contacto_form_inputs{
-                    input{
-                        width:50% !important;
-                        margin-left:50% !important;
+                    form{
+                        .input_inline{
+                            flex:1 1 100%; 
+                        }
                     }
                 }
             }
@@ -92,7 +93,7 @@
                     background: #3d5afe;
                     color:white;
                     padding:1%;
-                    width:10%;
+                    width:auto;
                     font-size:1rem;
                     margin-left: 5%;
                     margin-top:5vh;
